@@ -40,6 +40,7 @@
         <div v-on:click="boxClick('B')" class="demobox" :class="selectedbox=='B'? 'activeBox':''"></div>
         <div v-on:click="boxClick('C')" class="demobox" :class="selectedbox=='C'? 'activeBox':''"></div>
     </div>
+    
 
 </div>
 </template>
